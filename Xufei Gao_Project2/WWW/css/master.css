@@ -1,0 +1,484 @@
+/* CSS Document */
+#piano{
+background: url(../images/GIF.gif);
+background-position: center;
+margin-top:21%;
+background-repeat: no-repeat;
+position:fixed;
+height:30%;
+width:100%;
+   -webkit-filter: blur(8px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+} 
+#audio1{
+
+float:right;
+position:fixed;
+
+}
+#audio{
+top:10%;
+float:right;
+position:fixed;
+
+}
+
+html{
+  min-height: 100%;
+}
+body { 
+background: url(../images/steinway.jpg);
+background-repeat: no-repeat;
+background-position: center; 
+background-attachment: fixed;
+background-size: 100% ;
+background-color: #080808;
+min-height: 100%;
+
+}
+
+#Big{
+
+background-color:rgba(56, 56, 56, 0.6);
+position: absolute;
+top:0;
+ left:25%; 
+ width: 50%;
+ height:auto;
+ border:1px solid rgba(255,255,255,.3);
+ box-shadow:5px 5px 5px #050505;
+ min-width:953px;
+ 
+}
+
+.titleimage{
+
+margin-left:25%;
+}
+#titleimage{
+padding-top:5%;
+}
+
+#menu ul{
+list-style-type: none;
+}
+
+#menu ul li { float: left; }
+
+#menu{
+padding-left:5%;
+margin-top:-2%;
+min-width:800px;
+}
+
+
+
+
+#bleh{
+width:600px;
+margin: 0 auto;
+}
+.stuff{
+margin-left:50px;
+width:100px;
+height:100px;
+float:left;
+}
+
+
+
+
+
+#e,d,c,b,a{
+float:right;
+}
+
+
+#wowslider-container1{
+margin-top:5px;
+padding-top:10px;
+}
+
+#Big2{
+
+background-color:rgba(56, 56, 56, 0.6);
+
+position: absolute;
+  top:55%;
+ left:25%; 
+ width: 50%;
+ height:auto;
+ border:1px solid rgba(255,255,255,.3);
+ box-shadow:5px 5px 5px #050505;
+  min-width:953px;
+
+}
+
+p.news{
+
+ font-family: 'Tangerine', serif;
+font-size:250%; 
+color:#ffffe7;
+position: relative;
+text-align:center;
+word-spacing: 0.5em;
+}
+
+
+iframe.mainvideo{
+margin-left:13%;
+margin-right:13%;
+margin-top:9%;
+margin-bottom:5%;
+}
+
+
+
+
+
+
+
+
+
+
+#menutop{
+background: url(../images/musicsheet.gif);
+background-repeat: no-repeat;
+background-position: center; 
+background-size: 50% ;
+background-color:#191919;
+margin:0 auto;
+width:100%;
+height:auto;
+position:fixed;
+top:-5px;
+min-width:1800px;
+
+}
+
+#menutop ul li { display:inline;
+;
+}
+#menutop ul{
+list-style-type: none;
+
+}
+
+
+#h,i,j,k,l{
+float:right;
+height:50px;
+
+}
+#h{
+margin-right:31%;
+
+}
+
+#Big3{
+
+background-color:rgba(56, 56, 56, 0.6);
+position: absolute;
+top:10%;
+ left:25%; 
+ width: 50%;
+ height:auto;
+ border:1px solid rgba(255,255,255,.3);
+ box-shadow:5px 5px 5px #050505;
+   min-width:953px;
+
+}
+
+#content{
+height:auto;
+width:60%;
+padding:5%;
+}
+
+p{
+font-family:'Tangerine', serif;
+Arial, Helvetica, sans-serif;
+color: rgb(230,198,133);
+ line-height: 90%;
+ font-size:32px;
+}
+
+h2{
+font-size:72px;
+font-family:'UnifrakturCook', cursive;
+color:#FFFFFF;
+ line-height: 90%;
+}
+h3{
+
+font-size:48px;
+font-family:'UnifrakturCook', cursive;
+color:#FFFFFF;
+ line-height: 90%;
+}
+
+
+
+#historypictures1{
+width:20%;
+height:7500px;
+background-image:url(../images/historyseries.PNG);
+background-repeat:repeat-y;
+background-size:100%;
+float:right;
+margin-top:15%;
+margin-right:8%;
+}
+
+
+#modelsimages{
+
+margin-left:36%;
+position:relative;
+top:100px;
+
+}
+
+#Big4{
+
+background-color:rgba(56, 56, 56, 0.6);
+position:relative;
+top:120px;
+ left:25%; 
+ width: 50%;
+ height:auto;
+ border:1px solid rgba(255,255,255,.3);
+ box-shadow:5px 5px 5px #050505;
+  min-width:953px;
+
+}
+
+#Big5{
+
+background-color:rgba(56, 56, 56, 0.6);
+position:absolute;
+top:30%;
+ left:25%; 
+ width: 50%;
+ height:auto;
+ border:1px solid rgba(255,255,255,.3);
+ box-shadow:5px 5px 5px #050505;
+ padding-bottom:100px;
+ min-width:953px;
+ 
+ 
+}
+
+img.model{
+height:230px;
+width:200px;
+}
+
+div.piano-collectionleft{
+padding-left:50px;
+width:400px;
+height::400px;
+float:left;
+padding-top:100px;
+
+
+}
+#pianopicture{
+float:left;
+width:200px;
+margin-top:40px;
+}
+
+#description{
+
+float:right;
+width:200px;
+
+}
+
+p.grand{
+line-height:90%;
+font-size:25px;
+float:left;
+margin:10px;
+}
+
+h4{
+font-size:48px;
+font-family:'UnifrakturCook', cursive;
+color:#FFFFFF;
+ line-height:10%;
+ height:25px;
+ margin-bottom:0;
+ 
+}
+
+
+video.artists{
+width:100%;
+
+}
+
+#Big6{
+
+position:absolute;
+top:30%;
+ left:25%; 
+ width: 50%;
+ height:auto;
+ padding-bottom:100px;
+ min-width:953px;
+ 
+}
+
+
+
+div.artistssss{
+margin-top:100px;
+width:300px;
+height::400px;
+float:left;
+background-color:#FFFFFF;
+margin-bottom:100px;
+}
+div.artistsss{
+margin-top:100px;
+width:300px;
+height::400px;
+float:left;
+background-color:#FFFFFF;
+margin-left:25px;
+margin-bottom:100px;
+}
+
+p.names1{
+
+font-size:25px;
+font-family: 'Nixie One', cursive;
+font-size:32px;
+margin-left:11%;
+float:left;
+clear:left;
+}
+
+p.names{
+
+font-size:25px;
+font-family: 'Nixie One', cursive;
+font-size:32px;
+margin-left:20%;
+float:left;
+clear:left;
+}
+
+img.artists{
+width:300px;
+float:left;
+}
+
+
+a.names{
+text-decoration: none;
+color:#000000;
+}
+
+
+p.features{
+font-family:'UnifrakturCook', cursive;
+font-size:20px;
+text-align: center;
+color:#FFFFFF;
+
+}
+
+
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font:  300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group {
+ box-shadow:5px 5px 5px #050505;
+margin-top:100px;
+background-color:rgba(56, 56, 56, 0.6);
+margin-bottom:50px;
+}
+.register-group legend{color: #e7e7e7;
+  font-family: 'Nixie One', cursive;
+  font-weight: 400;
+  font-size:36px;
+  }
+
+.register-group  label {
+  color: #e7e7e7;
+  cursor: pointer;
+  font-weight: 400;
+  font-family: 'Nixie One', cursive;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border:1px solid rgba(255,255,255,.3);
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 900px;
+}
+.register-group select {
+  height: 34px;
+  width:500px;
+}
+.register-group textarea {
+  height: 78px;
+}
+.btn-default {
+  border: 0;
+  background: #323232;
+  padding: 11px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  
+}
+.btn-default:hover {
+  background: #bfbfbf;
+}
+
+
+img.map{
+margin-left:160px;
+}
+
+
+#map{
+margin-top:60px;
+background-color:#FFFFFF}
+
+#Big7{
+
+
+position:absolute;
+top:30%;
+ left:25%; 
+ width: 50%;
+ height:auto;
+ padding-bottom:100px;
+ min-width:953px;
+}
+
+
+p.end{
+text-align:center;
+color:#FFFFFF;
+}
+
